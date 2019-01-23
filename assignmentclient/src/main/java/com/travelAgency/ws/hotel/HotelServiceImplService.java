@@ -31,9 +31,9 @@ public class HotelServiceImplService
         WebServiceException e = null;
         try {
 //            for tomcat server
-//            url = new URL("http://localhost:8080/jaxwsserviceapp/hotel_service?wsdl");
+            url = new URL("http://localhost:8080/jaxwsserviceapp/hotel_service?wsdl");
 //            to run from main class
-            url = new URL("http://localhost:8888/ws/hotel?wsdl");
+//            url = new URL("http://localhost:8888/ws/hotel?wsdl");
         } catch (MalformedURLException ex) {
             e = new WebServiceException(ex);
         }

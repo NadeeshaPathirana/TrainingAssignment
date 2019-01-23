@@ -15,7 +15,7 @@ public class HotelServiceImpl implements HotelService{
     public boolean addHotel(Hotel h) {
         System.out.println("Hotel is added");
         hotels.put(h.getId(), h);
-        return false;
+        return true;
     }
 
     public Hotel getHotel(int id) {

@@ -9,7 +9,7 @@ import java.sql.PreparedStatement;
 import it.codegen.DBUtility;
 
 import javax.xml.bind.annotation.XmlType;
-@XmlType(name = "NpHotel", namespace = "http://db.travelAgency.com.java.main")
+@XmlType(name = "NpHotel", namespace = "http://db.travelAgency.com")
 public class NpHotel extends it.codegen.Savable
 {
  	private int hotelId;
